@@ -1,13 +1,14 @@
 # 3000plus-Stock-Predictor-V1.0
 
-This is a simple Convolutional Neural Network with Keras for the CIFAR10 dataset. 
-It is set up to train for 40 epochs, but it will stop when there has been no progress in the last 2 epochs.
+You can choose over 3000 stocks to predict. 
+The data will be automatically downloaded, and a 'prediction algorithm will be trained using Logistic Regression.
 
+The program is very user-friendly and no ML skills are required to use it
 
 ## Prerequisites
 
-Keras
+sklearn 
 
 
-> ''pip install keras'' 
+> ''pip install sklearn '' 
 
