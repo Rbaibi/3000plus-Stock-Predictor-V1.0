@@ -54,7 +54,7 @@ df = df[['Adj. Close', 'HL_PCT', 'PCT_change', 'Adj. Volume']]
 
 forecast_col = 'Adj. Close'
 df.fillna(value=-99999, inplace=True)
-forecast_window = int(math.ceil(0.1 * len(df)))#forecast out 1% of the entire length of the dataset
+forecast_window = int(math.ceil(0.01 * len(df)))#forecast out 1% of the entire length of the dataset
 #print(forecast_window)
 
 #use data from former days
